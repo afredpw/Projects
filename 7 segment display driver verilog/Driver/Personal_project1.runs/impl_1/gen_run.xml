@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1734682979">
+  <File Type="REPORTS-TCL" Name="Driver_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Driver_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="Driver.mmi"/>
+  <File Type="OPT-DRC" Name="Driver_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="Driver.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="Driver_route_status.pb"/>
+  <File Type="BG-BGN" Name="Driver.bgn"/>
+  <File Type="PLACE-UTIL" Name="Driver_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Driver_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="Driver_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="Driver.bin"/>
+  <File Type="PLACE-CTRL" Name="Driver_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Driver_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="Driver_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="Driver.msk"/>
+  <File Type="BITSTR-RBT" Name="Driver.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Driver_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Driver_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Driver_route_status.rpt"/>
+  <File Type="PA-TCL" Name="Driver.tcl"/>
+  <File Type="ROUTE-PWR" Name="Driver_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Driver_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Driver_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Driver_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Driver.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Driver_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Driver_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Driver.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Driver_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="Driver_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Driver.vdi"/>
+  <File Type="ROUTE-CLK" Name="Driver_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Driver_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Driver_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Driver_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Driver_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Driver_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Driver_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Driver_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Driver_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Driver.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Driver_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="Driver.nky"/>
+  <File Type="BITSTR-BMM" Name="Driver_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="Driver.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Driver_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Driver_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Driver_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Driver_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="Driver_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Driver_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Driver_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Driver_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Driver_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Driver_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Driver_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="Driver.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Driver_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Driver_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Driver.rcfi"/>
+  <File Type="CFI_FILE" Name="Driver.cfi"/>
+  <File Type="RNPI_FILE" Name="Driver.rnpi"/>
+  <File Type="NPI_FILE" Name="Driver.npi"/>
+  <File Type="RBD_FILE" Name="Driver.rbd"/>
+  <File Type="ROUTE-RQS" Name="Driver_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Driver_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Driver.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Driver"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/zokoko.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/zokoko.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/timer.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

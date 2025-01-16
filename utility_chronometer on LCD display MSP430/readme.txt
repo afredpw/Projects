@@ -1,0 +1,1 @@
+This folder contains code for a basic clock displaying the time using the LCD display module of the msp430. main.c contains the code. the target device is msp430fr6889 
